@@ -21,3 +21,9 @@ class HybridDog(dog, pet):
         dog.__init__(self, n, c)
         pet.__init__(self, o)
         self.age = a
+
+    def show(self):
+        print("Name:", self.name)
+        print("Color:", self.colour)
+        print("Owner:", self.owner)
+        print("Age:", self.age)
