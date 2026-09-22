@@ -27,10 +27,11 @@ class HybridDog(dog, pet):
         print("Color:", self.colour)
         print("Owner:", self.owner)
         print("Age:", self.age)
-Dog_name  = input("Enter dog name: ")
-Dog_color = input("Enter dog colour: ")
-Dog_owner = input("Enter owner name: ")
-Dog_age   = input("Enter dog age: ")
+Dog_name  = ("donald trump")
+Dog_color = ("pink")
+Dog_owner = ("ABC")
+Dog_age   = ("16")
+
 
 h1 = HybridDog(Dog_name, Dog_color, Dog_owner, Dog_age)
 h1.show()  
